@@ -1,0 +1,388 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecacf7bdd7e77b2419e140cb5ded6aa5, type: 3}
+  m_Name: gomokuTextEn
+  m_EditorClassIdentifier: 
+  _items:
+  - _key: lGoTutorial
+    _rawText: '? help ?'
+  - _key: lAcceptDraw
+    _rawText: Accept a draw
+  - _key: lAggressivness
+    _rawText: Aggressivness
+  - _key: lAISettings
+    _rawText: Computer opponent settings
+  - _key: lBeginGame
+    _rawText: Start game
+  - _key: lBlack
+    _rawText: Black
+  - _key: lBlackMove
+    _rawText: Black's Move
+  - _key: lBolgarka
+    _rawText: Gomoku With Common Stone
+  - _key: lChooseSide
+    _rawText: Side of the player
+  - _key: lCommonAudio
+    _rawText: Total volume
+  - _key: lDifficulty
+    _rawText: Difficulty
+  - _key: lDoMove
+    _rawText: Make move
+  - _key: lFiveInRow
+    _rawText: Five-In-Row
+  - _key: lFullScreen
+    _rawText: FullScreen
+  - _key: lGameAudio
+    _rawText: Game volume
+  - _key: lGameDescription
+    _rawText: Description
+  - _key: lGoExit
+    _rawText: Exit game
+  - _key: lGoMenu
+    _rawText: Back to menu
+  - _key: lGoMulti
+    _rawText: Multiplayer
+  - _key: lGoSettings
+    _rawText: Settings
+  - _key: lGoSingle
+    _rawText: SinglePlayer
+  - _key: lHigh
+    _rawText: High
+  - _key: lLoadGames
+    _rawText: Load Game
+  - _key: lSapronovka
+    _rawText: Free Renju
+  - _key: lLoadParameters
+    _rawText: Saved Game parameters
+  - _key: lLocalization
+    _rawText: Language
+  - _key: lLow
+    _rawText: Low
+  - _key: lMid
+    _rawText: Mid
+  - _key: lMusicAudio
+    _rawText: Music Volume
+  - _key: lPlayAgain
+    _rawText: Play again
+  - _key: lRandom
+    _rawText: Random
+  - _key: lResolution
+    _rawText: Resolution
+  - _key: lReturnToGame
+    _rawText: Back to game
+  - _key: lSavedGames
+    _rawText: Saved Games
+  - _key: lSaveGame
+    _rawText: Save game
+  - _key: lSettings
+    _rawText: Settings
+  - _key: lWhite
+    _rawText: White
+  - _key: lWhiteMove
+    _rawText: White Move
+  - _key: lSaveMenu
+    _rawText: Saving game
+  - _key: lSaveInput
+    _rawText: Enter the name of the save
+  - _key: lSaveError
+    _rawText: Warning! Save file with this name already exists. Do you want to rewrite
+      it?
+  - _key: lSaveErrorOk
+    _rawText: Yes
+  - _key: lSaveErrorNope
+    _rawText: No
+  - _key: lBackSettings
+    _rawText: Return to settings
+  - _key: lCancel
+    _rawText: Cancel
+  - _key: lOk
+    _rawText: OK
+  - _key: lChooseSavedGame
+    _rawText: 'Select a saved game from the list below:'
+  - _key: lDrawWarning
+    _rawText: 'This move will result in an instant draw.
+
+      Continue?'
+  - _key: lDraw
+    _rawText: Draw
+  - _key: lWhiteVictory
+    _rawText: White victory!
+  - _key: lBlackVictory
+    _rawText: Black victory!
+  - _key: lExitWithoutSave
+    _rawText: Are you sure you want to leave without being saved? You will lose the
+      current game forever and will never be able to finish it!
+  - _key: lCorruptSave
+    _rawText: 'Error!
+
+      The save is corrupted and cannot be loaded'
+  - _key: lType
+    _rawText: 'Type:'
+  - _key: lSingle
+    _rawText: Singleplayer
+  - _key: lVariant
+    _rawText: 'Mode:'
+  - _key: lMulti
+    _rawText: Multiplayer
+  - _key: lDate
+    _rawText: 'Date:'
+  - _key: lChooseGameType
+    _rawText: Choose game type
+  - _key: lFiveInRowDesc
+    _rawText: 'Five-in-a-row
+
+
+      Five-in-a-row is the simplest game according
+      to the rules on this list. Recommended for beginners. Black makes the first
+      move. Black''s first move is made to the center of the field, there are no
+      restrictions on the remaining moves of the white and black player.
+
+
+      Warning:
+      it is mathematically proven that the black player has an advantage over the
+      white one!
+
+
+      Victory condition: building a row of 5 or more stones of
+      your own color
+
+
+      Draw condition: both players missed a move in a row
+      or filled the entire field with stones, leaving no free space'
+  - _key: lSapronovkaDesc
+    _rawText: 'Free renju
+
+
+      Free renju, in the common people "sapronovka" is
+      a more advanced kind of game proposed by V. Sapronov. The first move in this
+      version is also made by black, but there is one peculiarity - the second move
+      of the black player must be made outside the central square marked with dots
+      on the edges. This measure was taken to compensate for the capabilities of
+      players of both colors
+
+
+      Victory condition: building a row of exactly
+      5 stones of its own color. A row longer than 5 stones does not bring victory
+
+
+      Draw
+      condition: both players missed a move in a row or filled the entire field with
+      stones, leaving no free space'
+  - _key: lBolgarkaDesc
+    _rawText: 'Gomoku with a common stone
+
+
+      Gomoku with a common central stone
+      is another version of renju, invented by K. Kontsev from Bulgaria. The first
+      move in this version is made by white, but at the beginning of the game there
+      is already a special, gray stone in the center of the board. He is considered
+      "his" for both players. This is another way to eliminate the advantage of a
+      black player over a white one
+
+
+      Victory condition: building a row of
+      exactly 5 stones of its own color. A row longer than 5 stones does not bring
+      victory. When counting, the central gray stone counts as a black or white stone
+      for the respective players
+
+
+      Draw condition: both players missed a move
+      in a row or filled the entire field with stones, leaving no free space'
+  - _key: lUpdateSaves
+    _rawText: Update the save list
+  - _key: lCorruptedSave
+    _rawText: 'Error!
+
+      The save is corrupted and cannot be loaded!'
+  - _key: lNogameSelected
+    _rawText: No saves found
+  - _key: lh_SaveSelector
+    _rawText: Here, in the drop-down list, you can choose which batch to download
+      from the saved list
+  - _key: lh_SaveParameters
+    _rawText: Below are the parameters of the selected save.
+  - _key: lh_LoadGame
+    _rawText: Click here to download the selected saved batch.
+  - _key: lh_GoMenu
+    _rawText: Click here to return to the main menu.
+  - _key: lh_CorruptedErrorHelp
+    _rawText: Save is not choosed
+  - _key: lh_UpdateSave
+    _rawText: Click here to update the save list.
+  - _key: lh_single
+    _rawText: Click here to choose a single-player game mode with bots of varying
+      difficulty.
+  - _key: lh_Aggressivness
+    _rawText: The choice of the opponent's style of play (playing from defense or
+      from attack).
+  - _key: lh_BackToSettings
+    _rawText: Click here to return to the game party settings.
+  - _key: lh_BeginGame
+    _rawText: Click here to start the AI game with these settings.
+  - _key: lh_commonAudio
+    _rawText: Adjust the volume of game music.
+  - _key: lh_CorruptedSave
+    _rawText: Unfortunately, the selected save is corrupted and cannot be loaded.
+      Click "OK" to close the error window and return to the saved batches.
+  - _key: lh_Difficulty
+    _rawText: Choosing the difficulty of the opponent's artificial intelligence game.
+  - _key: lh_drawHelp
+    _rawText: 'Unfortunately, according to the rules of renju, if both players miss
+      a move in a row, the game ends in a draw. Are you sure you want to finish this
+      game this way?
+
+
+      Click "Return to the game ", " to cancel the previous
+      action and return to the started game.
+
+
+      Click "Accept Draw " to accept
+      the draw and exit to the main menu.'
+  - _key: lh_endGame
+    _rawText: Click here to end the game ahead of schedule and return to the main
+      menu.
+  - _key: lh_endMove
+    _rawText: Click here to complete your turn
+  - _key: lh_exit
+    _rawText: Click here to close the app.
+  - _key: lh_exitWithoutSaveHelp
+    _rawText: 'You didn''t save the game before exiting. You can lose this game and
+      never finish it!
+
+
+      Click "Yes" to exit the main menu without saving the
+      progress of the party.
+
+
+      Click "No" to return to the party.'
+  - _key: lh_fieldHelp
+    _rawText: The field for the game. Black and white stones are placed on the board
+      in turn. The stones are placed not in the cells, but at the intersection of
+      the lines! You can make a move without putting a stone on the board (skip the
+      move).
+  - _key: lh_fullscreen
+    _rawText: Select fullscreen or windowed mode (on, off).
+  - _key: lh_gameAudio
+    _rawText: Adjust the volume of the game sound.
+  - _key: lh_GameStart
+    _rawText: Click here to start the game of the selected type of game.
+  - _key: lh_GameTypeDescription
+    _rawText: Here is a brief description of the selected type of game.
+  - _key: lh_GameTypeSelector
+    _rawText: Here you can choose the version of the game you want to play. The arrow
+      on the right indicates the selected view.
+  - _key: lh_help
+    _rawText: Click here to open the help
+  - _key: lh_language
+    _rawText: Select the interface language (Russian, English).
+  - _key: lh_LoadSave
+    _rawText: Click here to download the batch you saved.
+  - _key: lh_moveCounter
+    _rawText: Shows whose move is going on now.
+  - _key: lh_multi
+    _rawText: Click here to select the multiplayer game mode (2 players). The game
+      will be played for both users on the same device (offline).
+  - _key: lh_rewriteErrorHelp
+    _rawText: 'It so happened that you already have a batch saved under this name.
+      You can overwrite that save, or give the current save a different name.
+
+
+      Click
+      "Yes" to change the previous save with the same name to the current one.
+
+
+      Click
+      "No" to return to the batch save window.'
+  - _key: lh_saveGame
+    _rawText: Click here to save this batch. You can finish it later.
+  - _key: lh_settingsFull
+    _rawText: 'Here you can customize the game as you feel comfortable. List of settings
+      with explanations:
+
+
+      Full-screen mode
+
+      Select fullscreen or windowed
+      mode (on, off).
+
+      Language
+
+      Select the interface language (Russian,
+      English).
+
+      Window Resolution
+
+      Selecting the desired resolution
+      of the game window.
+
+      Game volume
+
+      Adjust the volume of the game
+      sound.
+
+      Music volume
+
+      Adjust the volume of game music.
+
+      Total
+      volume
+
+      Setting the overall volume of the application.
+
+
+      Click
+      "Return to Menu " to return to the main menu'
+  - _key: lh_settings
+    _rawText: Click here to open the settings menu where you can customize the app
+      for yourself.
+  - _key: lh_saveMenuHelp
+    _rawText: 'Enter the name of this batch in this field so that you can then find
+      it in the saved batches. Try not to repeat yourself in the names!
+
+
+      Click
+      Cancel to cancel the action (the game will not be saved).
+
+
+      Click "Finish
+      later " to save the current progress of the game (you can finish it later).'
+  - _key: lh_victoryHelp
+    _rawText: 'The result of this game is shown here (victory, defeat, draw).
+
+
+      Click
+      "Play again" to play a new game with the same settings.
+
+
+      Click "Return
+      to Menu " to exit the main menu.'
+  - _key: lh_musicAudio
+    _rawText: Adjust the volume of game music.
+  - _key: lh_resolution
+    _rawText: Selecting the desired resolution of the game window.
+  - _key: lh_SideChooseHelp
+    _rawText: Here you can choose which color stones you want to play with (black,
+      white, random).
+  - _key: lPleaseLoadGame
+    _rawText: Download the save to see the information about it
+  - _key: lReturnToTable
+    _rawText: Return to Goban
+  - _key: lReturnToGameSettings
+    _rawText: Return To Setttings
+  - _key: lh_ReturnToGameSettings
+    _rawText: Click here to return to the game settings menu
+  - _key: lSaveCorruptedParameters
+    _rawText: The save is corrupted and cannot be loaded.
+  - _key: lSingleMode
+    _rawText: Singleplayer
+  - _key: lMultiMode
+    _rawText: Multiplayer

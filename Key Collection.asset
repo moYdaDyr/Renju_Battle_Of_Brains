@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1ff9c661913424893eef705ffbbc73, type: 3}
+  m_Name: Key Collection
+  m_EditorClassIdentifier: 
+  _keyData:
+  - _key: lGoTutorial
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGoSingle
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGoMulti
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGoSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGoExit
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGoMenu
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lFullScreen
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lLocalization
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lResolution
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGameAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lMusicAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lCommonAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lAISettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lDoMove
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBlackMove
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lWhiteMove
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lPlayAgain
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lReturnToGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lAcceptDraw
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSavedGames
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lLoadParameters
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lLoadGames
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lFiveInRow
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSapronovka
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBolgarka
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lGameDescription
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBeginGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lDifficulty
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lAggressivness
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lChooseSide
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lHigh
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lMid
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lLow
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBlack
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lWhite
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lRandom
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lRandom
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveMenu
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveInput
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveError
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveErrorOk
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBackSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveErrorNope
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lCancel
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lOk
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lChooseSavedGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lDrawWarning
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lDraw
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lWhiteVictory
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBlackVictory
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lExitWithoutSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lCorruptSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lDate
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lVariant
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lType
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSingle
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lMulti
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lChooseGameType
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lFiveInRowDesc
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSapronovkaDesc
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lBolgarkaDesc
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lUpdateSaves
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lCorruptedSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lNogameSelected
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_SaveSelector
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_SaveParameters
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_UpdateSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_LoadGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_GoMenu
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_CorruptedSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_GameTypeSelector
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_GameTypeDescription
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_GameStart
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_LoadSave
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_Difficulty
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_Aggressivness
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_SideChooseHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_BeginGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_BackToSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_fieldHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_moveCounter
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_saveGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_endGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_endMove
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_victoryHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_drawHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_saveMenuHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_rewriteErrorHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_exitWithoutSaveHelp
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_single
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_multi
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_settings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_exit
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_fullscreen
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_fullscreen
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_language
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_resolution
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_commonAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_musicAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_gameAudio
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_help
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_settingsFull
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lPleaseLoadGame
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lReturnToTable
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lReturnToGameSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSaveCorruptedParameters
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lh_LoadAiSettings
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lSingleMode
+    _metadata:
+      _runtime: []
+      _editor: []
+  - _key: lMultiMode
+    _metadata:
+      _runtime: []
+      _editor: []
+  references:
+    version: 2
+    RefIds: []
